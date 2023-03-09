@@ -1,0 +1,45 @@
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+
+}
+
+html {
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+/* main */
+
+
+.top-bar {
+    background-color: black;
+    height: 3rem;
+}
+
+.big-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    height: calc(100vh - 8rem);
+    overflow: scroll;
+}
+
+.bottom-bar{
+    background-color: black;
+    height: 5rem;
+}
+
+.webcam {
+    height: 100px;
+    width: 150px;
+    background-color: red;
+    margin: 0.3rem 0.2rem;
+}
